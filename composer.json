@@ -1,0 +1,44 @@
+{
+    "name": "patienceman/handler",
+    "description": "Laravel handler",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "role": "Laravel/PHP Developer",
+            "name": "Manirabona Patience",
+            "email": "hseal419@gmail.com",
+            "homepage": "https://github.com/manirabona-programer"
+        }
+    ],
+    "keywords": [
+        "php",
+        "laravel",
+        "handler",
+        "handlers"
+    ],
+    "autoload": {
+        "psr-4": {
+          "Patienceman\\Handler\\": "src/"
+        }
+    },
+    "minimum-stability": "beta",
+    "require": {
+        "php": "^8.0"
+    },
+    "extra": {
+      "laravel": {
+            "providers": [
+                "Patienceman\\Handler\\CustomHandler"
+            ],
+            "aliases": {
+                "CustomHandler": "Patienceman\\Handler\\Facades\\Notifier"
+            }
+      }
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    }
+}
