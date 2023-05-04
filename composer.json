@@ -29,7 +29,7 @@
     "extra": {
       "laravel": {
             "providers": [
-                "Patienceman\\CustomHandler\\CustomHandler"
+                "Patienceman\\CustomHandler\\Provider\\CustomHandlerServiceProvider"
             ],
             "aliases": {
                 "CustomHandler": "Patienceman\\CustomHandler\\Facades\\CustomHandler"
