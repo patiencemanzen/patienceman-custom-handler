@@ -29,7 +29,7 @@ so it will create the filter file for u, Just in
 ```PHP
     namespace App\Handlers;
 
-    use Patienceman\Handler\Handler;
+    use Patienceman\CustomHandler\Handler;
 
     class NewStartupHandler extends Handler {
         /**
@@ -53,7 +53,7 @@ So far so good, Let see how you can your handlers anywhere in controller or serv
     namespace App\Http\Controllers;
 
     use App\Handlers\NewStartupHandler;
-    use Patienceman\Handler\CustomHandler;
+    use Patienceman\CustomHandler\CustomHandler;
 
     class TestBuilderController extends Controller {
         /**
@@ -73,7 +73,7 @@ But don't worry, you chain many handlers as you want, what you need to do is kee
 
     use App\Handlers\NewStartupHandler;
     use App\Handlers\NewCompanyHandler;
-    use Patienceman\Handler\CustomHandler;
+    use Patienceman\CustomHandler\CustomHandler;
 
     class TestBuilderController extends Controller {
         /**
@@ -97,7 +97,7 @@ In our ``` NewStartupHandler ```:
 ```PHP
     namespace App\Handlers;
 
-    use Patienceman\Handler\Handler;
+    use Patienceman\CustomHandler\Handler;
     use App\Models\Startup;
 
     class NewStartupHandler extends Handler {
@@ -116,7 +116,7 @@ That look to clear 🎉, so Let see how you can call the collected data anywhere
 ```PHP
     namespace App\Handlers;
 
-    use Patienceman\Handler\Handler;
+    use Patienceman\CustomHandler\Handler;
 
     class NewCompanyHandler extends Handler {
         /**
@@ -139,7 +139,7 @@ as ``` ->collection() ``` after your handler, take a look:
 
     use App\Handlers\NewStartupHandler;
     use App\Handlers\NewCompanyHandler;
-    use Patienceman\Handler\CustomHandler;
+    use Patienceman\CustomHandler\CustomHandler;
 
     class TestBuilderController extends Controller {
         /**

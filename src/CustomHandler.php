@@ -1,5 +1,5 @@
 <?php
-    namespace Patienceman\Handler;
+    namespace Patienceman\CustomHandler;
 
     class CustomHandler {
         /**

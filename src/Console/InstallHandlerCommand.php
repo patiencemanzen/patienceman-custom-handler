@@ -65,7 +65,7 @@ public function getFileInitialContents($namespace, $className) {
     return "<?php
     namespace $namespace;
 
-    use Patienceman\Handler\Handler;
+    use Patienceman\CustomHandler\Handler;
 
     class {$className} extends Handler {
         /**

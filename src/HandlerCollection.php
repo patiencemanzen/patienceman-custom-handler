@@ -1,6 +1,6 @@
 <?php
 
-    namespace Patienceman\Handler;
+    namespace Patienceman\CustomHandler;
 
     use Illuminate\Support\Collection;
 

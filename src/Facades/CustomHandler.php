@@ -1,5 +1,5 @@
 <?php
-    namespace Patienceman\Handler\Facades;
+    namespace Patienceman\CustomHandler\Facades;
 
     use Illuminate\Support\Facades\Facade;
 

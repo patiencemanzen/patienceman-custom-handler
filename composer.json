@@ -1,6 +1,6 @@
 {
-    "name": "patienceman/handler",
-    "description": "About Provide a convenient way creating single action handlers. The idea of a action handler is a single action controller that means a unique class handles each action",
+    "name": "patienceman/custom-handler",
+    "description": "Provide a convenient way creating single action handlers. The idea of a action handler is a single action controller that means a unique class handles each action",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -14,12 +14,12 @@
     "keywords": [
         "php",
         "laravel",
-        "handler",
+        "custom-handler",
         "handlers"
     ],
     "autoload": {
         "psr-4": {
-          "Patienceman\\Handler\\": "src/"
+          "Patienceman\\CustomHandler\\": "src/"
         }
     },
     "minimum-stability": "beta",
@@ -29,10 +29,10 @@
     "extra": {
       "laravel": {
             "providers": [
-                "Patienceman\\Handler\\CustomHandler"
+                "Patienceman\\CustomHandler\\CustomHandler"
             ],
             "aliases": {
-                "CustomHandler": "Patienceman\\Handler\\Facades\\Notifier"
+                "CustomHandler": "Patienceman\\CustomHandler\\Facades\\CustomHandler"
             }
       }
     },
