@@ -1,4 +1,4 @@
-# Patienceman - Handler
+# Patienceman - CustomHandler
 
 Provide a convenient way creating single action handlers. 
 The idea of a action handler is a single action controller that means 
@@ -9,7 +9,7 @@ a unique class handles each action
 Install the package doesn't require much requirement except to use the following command in the laravel terminal,  and you're good to go.
 
 ```bash
-    composer require patienceman/handler
+    composer require patienceman/custom-handler
 ```
 
 ## Usage
