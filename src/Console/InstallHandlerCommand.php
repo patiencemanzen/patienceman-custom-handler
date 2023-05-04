@@ -1,6 +1,6 @@
 <?php
 
-    namespace Patienceman\Notifier\Console;
+    namespace Patienceman\Handler\Console;
 
     use Illuminate\Console\Command;
     use Illuminate\Support\Str;
