@@ -1,6 +1,6 @@
 {
     "name": "patienceman/handler",
-    "description": "Laravel handler",
+    "description": "About Provide a convenient way creating single action handlers. The idea of a action handler is a single action controller that means a unique class handles each action",
     "type": "library",
     "license": "MIT",
     "authors": [
