@@ -3,7 +3,7 @@
     namespace Patienceman\Customhandler\Provider;
 
     use Illuminate\Support\ServiceProvider;
-    use Patienceman\Notifier\Console\InstallHandlerCommand;
+    use Patienceman\Handler\Console\InstallHandlerCommand;
 
     class CustomHandlerServiceProvider extends ServiceProvider {
         /**
