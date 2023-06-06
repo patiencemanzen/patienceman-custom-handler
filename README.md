@@ -156,9 +156,6 @@ as ``` ->collection() ``` after your handler, take a look:
     }
 ```
 
-## Am Manirabona Patience
-as Software Engineer who is passionate about creating quality applications, and Never tired of learning, creating, and building, I've been collaborating and contributing with different Teams and companies to develop their products from ideas up to Marketplace, including open source projects.
-
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
