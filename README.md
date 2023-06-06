@@ -1,4 +1,4 @@
-# Patienceman - CustomHandler
+# CustomHandler | Patienceman
 
 Provide a convenient way creating single action handlers. 
 The idea of a action handler is a single action controller that means 
